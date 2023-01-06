@@ -14,8 +14,8 @@ public class StaffApotekController {
     public void dataAdmin() {
         String namaStaff[] = {"Yardan Safir", "Saad Budiman", "Wildan Abdul", "Faktul Diki"};
         String kodeStaff[] = {"01", "02", "03", "04"};
-        String UsernameStaff[] = {"Yardan99","Suud","wooland","Dikyz"};
-        String PasswordStaff[] = {"Y99", "Sudz", "weldone","Adeks"};
+        String UsernameStaff[] = {"12","34","56","78"};
+        String PasswordStaff[] = {"21", "43", "65","87"};
         String PengalamanKerja[] = {"10", "2","3","4"};
         for (int i = 0; i < kodeStaff.length; i++) {
            AllObjectM.StaffM.buatDataObat(new StaffApotekEntity(namaStaff[i],kodeStaff[i],UsernameStaff[i],PasswordStaff[i],PengalamanKerja[i]));

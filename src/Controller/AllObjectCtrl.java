@@ -11,4 +11,5 @@ package Controller;
  */
 public class AllObjectCtrl {
     public static StaffApotekController StaffCtrl = new StaffApotekController();
+    public static ObatController ObatCtrl = new ObatController();
 }

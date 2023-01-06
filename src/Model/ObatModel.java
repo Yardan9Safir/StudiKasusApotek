@@ -1,4 +1,5 @@
 package Model;
+
 import Entity.ObatEntity;
 import java.util.ArrayList;
 
@@ -24,7 +25,6 @@ public class ObatModel implements InterfaceModels {
 
     @Override
     public void tampilData() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
 }
