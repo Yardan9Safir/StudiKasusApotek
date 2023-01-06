@@ -6,8 +6,8 @@ import Views.StaffApotekPanel;
 public class MainApp {
 
     public static void main(String[] args) {
-//        LoginGUI test = new LoginGUI();
-        StaffApotekPanel p  = new StaffApotekPanel();
+        LoginGUI test = new LoginGUI();
+//        StaffApotekPanel p  = new StaffApotekPanel();
     }
 
 }
